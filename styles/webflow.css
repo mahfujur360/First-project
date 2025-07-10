@@ -1,0 +1,25 @@
+
+.inter-Normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared style */
+.text-primary{
+  color: #4E47FF;
+}
+
+/* Nav styles */
+nav{
+  display: flex;
+}
+
+.nav-title{
+  font-weight:900;
+  font-size: 34px;
+}
+
+nav ul li{
+  list-style: none;
+}
