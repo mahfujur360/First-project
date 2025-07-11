@@ -93,8 +93,8 @@ nav li a {
 
 .mainbanner{
   display: flex;
-  justify-content: space-between;
-  margin: 0 159px 0 141px;
+  justify-content:space-between;
+  margin: 0 10%
 }
 
 .mainbanner-title{
@@ -109,6 +109,7 @@ nav li a {
 .mainbanner-description{
   font-weight:normal ;
   font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .mainbanner-photo{
@@ -221,6 +222,7 @@ section{
 
 .ready1{
   margin-top: 130px;
+  margin-bottom: 70px;
 }
 .touch-form{
   display: flex;
@@ -272,4 +274,47 @@ input.submit-btn {
 
 .input-container label {
     font-weight: 600;
+}
+
+.input-container {
+  margin-top: 12px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer-container {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: bold;
+  color: #4a44ff;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #7a7a92;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #7a7a92;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #4a44ff;
 }
