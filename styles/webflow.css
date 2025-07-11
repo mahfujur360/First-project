@@ -171,3 +171,103 @@ section{
   padding: 24px;
   box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
+
+.reviewedBy{
+  display:flex;
+  align-items: center;
+  justify-items: start;
+  gap:8px;
+  margin-top:8px;
+}
+.reviewedBy h5,p{
+  margin: 0;
+  
+}
+
+.reviewer-photo{
+  border-radius: 50px;
+}
+
+.review-name{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.review-date{
+  font-size: 12px;
+}
+
+.namee{
+  margin-top: 8px;
+}
+
+.Ready{
+  text-align: center;
+}
+
+.wc-big{
+  height: 364px;
+  width: 840;
+  border-radius: 48px;
+  margin-top: 20px;
+}
+
+.btn-3d{
+  margin-top: 20px;
+  
+}
+
+.ready1{
+  margin: 137px 150px;
+}
+.touch-form{
+  display: flex;
+  padding: 60px 130px;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+}
+
+footer input[type="email"] footer input[type="Name"] {
+  height: 70px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.Touch{
+  background-color: #cce3ec ;
+}
+/* .email1 {
+  font size: top:
+} */
+
+.contact-form input, textarea {
+    /* display: block; */
+    margin-top: 10px;
+    width: 100%;
+     padding: 14px 15px;
+  border: 1px solid #D6DDED;
+  outline: none;
+}
+/* .input{
+  padding: 14px 15px;
+  border: 1px solid #D6DDED;
+  outline: none;
+} */
+
+input.submit-btn {
+    background: #4E47FF;
+    border: 0;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.input-container label {
+    font-weight: 600;
+}
